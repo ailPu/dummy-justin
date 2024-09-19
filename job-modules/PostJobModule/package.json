@@ -1,0 +1,25 @@
+{
+	"name": "@dummy-hoki/jobmodule-post",
+	"version": "1.0.0",
+	"description": "jobmodule post",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"files": [
+		"dist/**/*",
+		"index.ts"
+	],
+	"scripts": {
+		"build": "tsc"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"dependencies": {
+		"ts-morph": "^23.0.0",
+		"@dummy-hoki/integration-helpers": "^1.0.0"
+	},
+	"devDependencies": {
+		"typescript": "5.1.6",
+		"ts-node": "^10.9.2"
+	}
+}

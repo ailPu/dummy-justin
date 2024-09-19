@@ -1,0 +1,1 @@
+export { createVueSchemaFromConfig } from './CreateVueSchemaFromConfig';
